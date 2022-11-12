@@ -1,0 +1,22 @@
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .side-bar {
+        width: 160px;
+    }
+    .top-bar {
+        width: calc(100vw - 160px);
+    }
+    .content {
+        width: calc(100vw - 160px);
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+    
+}
+
+/* LARGE DESKTOP */
+@media screen and (min-width: 1200px) {
+    
+}
