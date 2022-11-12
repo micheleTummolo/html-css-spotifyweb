@@ -1,9 +1,14 @@
 /* TABLET */
 @media screen and (min-width: 768px) {
-    .side-bar {
-        width: 160px;
+    .side-bar-sm{
+        display: none;
     }
-    .top-bar {
+
+    .side-bar-full {
+        width: 160px;
+        display: block;
+    }
+    .top-bar-cont {
         width: calc(100vw - 160px);
     }
     .content {
@@ -13,7 +18,7 @@
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
-    
+
 }
 
 /* LARGE DESKTOP */
