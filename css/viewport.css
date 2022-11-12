@@ -17,11 +17,16 @@
 }
 
 /* DESKTOP */
-@media screen and (min-width: 992px) {
-
+@media screen and (min-width: 870px) {
+    .col-cover {
+        width: 21%;
+    }
 }
 
 /* LARGE DESKTOP */
 @media screen and (min-width: 1200px) {
-    
+    .col-cover {
+        width: 14%;
+        margin-right: 2.5%;
+    }
 }

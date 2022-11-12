@@ -58,12 +58,20 @@
     /* Background colors */
 
     /* Titels size */
+        h1{
+            font-size: 1.3rem;
+        }
+
         h2{
             font-size: .8rem;
         }
 
         h3 {
             font-size: .7rem;
+        }
+
+        h4 {
+            font-size: .6rem;
         }
     /* Titels size */
 
@@ -83,6 +91,14 @@
 
     ul {
         list-style-type: none;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .radius {
+        border-radius: 50%;
     }
 /* Service classes */
 
@@ -250,26 +266,50 @@
 
 /* Content */
     .content {
-        padding-top: 60px;
+        padding: 60px 2rem 2rem;
         width: calc(100vw - 35px);
         height: calc(100vh - 60px);
+        overflow: auto;
     }
 
     .content-row {
         margin-top: 1rem;
     }
+    /* List */
+        .content-col-list {
+            width: 80%;
+            margin: 0 auto;
+        }
+        
+        .content-col-list li {
+            margin: .2rem .5rem;
+            cursor: pointer;
+        }
+    /* List */
 
-    .content-col-list {
-        width: 80%;
-        margin: 0 auto;
-    }
+    /* Recently played */
+        .col-cover {
+            width: 45%;
+            margin-bottom: 1rem;
+            margin-right: 4%;
+        }
 
-    .content-col-list li {
-        margin: .2rem .5rem;
-        cursor: pointer;
-    }
+        .col-cover img {
+            width: 100%;
+            margin-bottom: .5rem;
+        }
 
-    .marker
+        .col-cover h3 {
+            margin-bottom: .3rem;
+        }
+    /* Recently played */
+
+    /* John Doe section */
+        .subtitle {
+            margin-top: .3rem;
+        }
+    /* John Doe section */
+
 /* Content */
 
 /* Footer */
@@ -277,5 +317,6 @@
     height: 60px;
     width: 100vw;
     background-color: #282828;
+   
 }
 /* Footer */
