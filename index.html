@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Css -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/viewport.css">
@@ -31,6 +34,7 @@
             </div>
         </nav>
     </header>
+
     <main class="flex">
         <!-- Sidebar small -->
         <div class="side-bar-sm flex flex-col space-between">
@@ -68,22 +72,144 @@
                 </div>
                 <div class="side-bar-sm-row">
                     <div class="side-bar-sm-col">
-                        <img src="img/profile.svg" alt="profile.svg">
+                        <img class="bk-lt-grey" src="img/profile.svg" alt="profile.svg">
                     </div>
                 </div>
             </section>
         </div>
 
         <!-- Sidebar Full -->
-        <div class="side-bar-full">
-            <div class="side-bar-full-row">
-                <div class="side-bar-full-logo">
-                    <img src="img/logo.svg" alt="logo.svg">
+        <div class="side-bar-full flex flex-col space-between">
+            <section>
+                <!-- Topbar section -->
+                <section class="side-bar-full-top">
+                    <div class="side-bar-full-row flex">
+                        <div class="side-bar-full-col col">
+                            <img src="img/logo.svg" alt="logo.svg">
+                        </div>
+                    </div>
+    
+                    <div class="side-bar-full-row flex space-between border-green">
+    
+                        <!-- Icona -->
+                        <div class="side-bar-full-col col-icon">
+                            <img src="img/home.svg" alt="home.svg">
+                        </div>
+                        <!-- Testo -->
+                        <div class="side-bar-full-col col-text flex align-center">
+                            <h3 class="cl-white">Home</h3>
+                        </div>
+                    </div>
+                    <div class="side-bar-full-row flex space-between">
+    
+                        <!-- Icona -->
+                        <div class="side-bar-full-col col-icon">
+                            <img src="img/search.svg" alt="search.svg">
+                        </div>
+                        <!-- Testo -->
+                        <div class="side-bar-full-col col-text flex align-center">
+                            <h3 class="cl-grey">Cerca</h3>
+                        </div>
+                    </div>
+                    <div class="side-bar-full-row flex space-between">
+    
+                        <!-- Icona -->
+                        <div class="side-bar-full-col col-icon">
+                            <img src="img/libreria.svg" alt="libreria.svg">
+                        </div>
+                        <!-- Testo -->
+                        <div class="side-bar-full-col col-text flex align-center">
+                            <h3 class="cl-grey">La tua libreria</h3>
+                        </div>
+                    </div>
+                </section>
+    
+                <!-- Central section -->
+                <section class="side-bar-full-center">
+                    <div class="side-bar-full-row">
+                        <div class="side-bar-full-col">
+                            <h2 class="cl-white">PLAYLIST</h2>
+                        </div>
+                    </div>
+    
+                    <!-- Button "Crea Playlist" -->
+                    <div class="side-bar-full-row flex space-between">
+    
+                        <!-- Icona -->
+                        <div class="side-bar-full-col col-icon square bk-lt-grey">
+                            <i class="fa-sharp fa-solid fa-plus fa-xs"></i>
+                        </div>
+                        <!-- Testo -->
+                        <div class="side-bar-full-col col-text flex align-center">
+                            <h3 class="cl-grey">Crea Playlist</h3>
+                        </div>
+                    </div>
+    
+                    <div class="side-bar-full-row">
+                        <div class="side-bar-full-col col-list">
+                            <ul class="cl-grey">
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                                <li>Nuova Playlist</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </section>
+
+            <section>
+                <!-- Downbar section -->
+                <section class="side-bar-full-down">
+                    <div class="side-bar-full-row flex space-between">
+    
+                        <!-- Icona -->
+                        <div class="side-bar-full-col col-icon">
+                            <img src="img/download.svg" alt="download.svg">
+                        </div>
+                        <!-- Testo -->
+                        <div class="side-bar-full-col col-text flex align-center">
+                            <h3 class="cl-grey">Installa app</h3>
+                        </div>
+                    </div>
+    
+                    <div class="side-bar-full-row">
+                        <div class="side-bar-full-col">
+                            <hr>
+                        </div>
+                    </div>
+    
+                    <div class="side-bar-full-row flex space-between">
+    
+                        <!-- Icona -->
+                        <div class="side-bar-full-col col-icon">
+                            <img class="bk-lt-grey" src="img/profile.svg" alt="profile.svg">
+                        </div>
+                        <!-- Testo -->
+                        <div class="side-bar-full-col col-text flex align-center">
+                            <h2 class="cl-white">John Doe</h2>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+
+        <div class="content bk-dk-grey">
+            <div class="content-row ">
+                <div class="content-col content-col-list">
+                    <ul class="flex justify-center wrap cl-grey">
+                        <li><h2 class="marker">IN EVIDENZA</h2></li>
+                        <li><h2>PODCAST</h2></li>
+                        <li><h2>CLASSIFICHE</h2></li>
+                        <li><h2>GENERI E MOOD</h2></li>
+                        <li><h2>NUOVE USCITE</h2></li>
+                        <li><h2>SCOPRI</h2></li>
+                    </ul>
                 </div>
             </div>
-        </div>
-        <div class="content">
-
         </div>
     </main>
     <footer>
