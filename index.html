@@ -197,6 +197,7 @@
             </section>
         </div>
 
+        <!-- Content -->
         <div class="content bk-dk-grey">
 
             <!-- List -->
@@ -314,7 +315,58 @@
         </div>
     </main>
     <footer>
-        <div class="down-bar">
+        <div class="down-bar flex align-center">
+            <div class="down-bar-row flex space-between align-center">
+
+                <!-- Col sx -->
+                <div class="down-bar-col-sx flex">
+
+                    <!-- Cover img -->
+                    <div class="down-bar-cover flex align-center">
+                        <img src="img/sinister.jpeg" alt="sinister.jpeg">
+                    </div>
+
+                    <!-- Col txt -->
+                    <div class="down-bar-txt flex flex-col justify-center">
+                        <h2 class="cl-white">Sinister</h2>
+                        <h3 class="cl-grey">Nome Brano</h3>
+                    </div>
+
+                    <!-- Col icon -->
+                    <div class="down-bar-icon flex wrap align-center">
+                        <i class="fa-regular fa-heart fa-xs cl-grey"></i>
+                        <i class="fa-regular fa-folder fa-xs cl-grey"></i>
+                    </div>
+                </div>
+
+                <!-- Col center -->
+                <div class="down-bar-col-center">
+
+                    <!-- Player tools -->
+                    <div class="col-dx-row flex justify-center align-center cl-white">
+                        <i class="fa-solid fa-shuffle"></i>
+                        <i class="fa-solid fa-forward-step"></i>
+                        <i class="fa-regular fa-circle-play fa-xl"></i>
+                        <i class="fa-solid fa-forward-step"></i>
+                        <i class="fa-solid fa-rotate-right"></i>
+                    </div>
+                    <div class="col-dx-row">
+                        <div class="slide-container">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Col dx -->
+                <div class="down-bar-col-dx flex align-center cl-white">
+                    <i class="fa-solid fa-list fa-xs"></i>
+                    <i class="fa-solid fa-desktop fa-xs"></i>
+                    <i class="fa-solid fa-volume-high fa-xs"></i>
+                    <div class="slide-container">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+                </div>
+            </div>
             
         </div>
     </footer>
