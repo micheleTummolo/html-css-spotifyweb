@@ -355,13 +355,21 @@
 
     /* Col center */
         .down-bar-col-center {
-            max-width: 300px;
-            min-width: 160px;
+            width: 300px;
+            min-width: 150px;
+        }
+
+        .col-dx-row {
+            width: 100%;
         }
 
         .col-dx-row i {
             margin: 0 .5rem;
             cursor: pointer;
+        }
+
+        .col-dx-row h4 {
+            margin: 0 .3rem;
         }
 
         .col-dx-row:first-child {
@@ -424,14 +432,28 @@
 
     /* Col dx */
     .down-bar-col-dx {
-        max-width: 167px;
-        min-width: 50px;
+        max-width: 147px;
+        min-width: 77px;
         margin-left: 1rem;
     }
 
     .down-bar-col-dx i{
         margin-right: .6rem;
         cursor: pointer;
+    }
+
+    .down-bar-col-dx i:last-child {
+        margin: 0;
+    }
+
+    .col-dx-icon {
+        width: 77px;
+        text-align: center;
+        margin: .2rem 0;
+    }
+
+    .slide-container-dx {
+        width: 70px;
     }
     /* Col dx */
 /* Footer */
