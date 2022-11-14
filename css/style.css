@@ -84,6 +84,7 @@
         border: 1px solid white;
         padding: .1rem 1.5rem .3rem;
         border-radius: 2rem;
+        cursor: pointer;
     }
     .button a{
         font-size: .6rem;
@@ -125,7 +126,9 @@
         margin-right: 2rem;
     }
 
-
+    .top-bar-col .button:hover {
+        padding: .2rem 2rem .4rem;
+    }
 /* Navbar */
 
 /* Sidebar */
@@ -254,6 +257,7 @@
             /* Hover playlist */
                 .playlist:hover .button-playlist{
                     background-color: white;
+                    cursor: pointer;
                 } 
 
                 .playlist:hover h3{
@@ -262,6 +266,7 @@
                 
                 .col-list li:hover {
                     color: white;
+                    cursor: pointer;
                 }
             /* Hover playlist */
         /* Central section */
@@ -337,11 +342,13 @@
         .content-col-list li {
             margin: .2rem .5rem;
             cursor: pointer;
+            border: 1px solid transparent;
         }
         
         /* Hover list */
             .content-col-list li:hover {
                color: white;
+               border-bottom: 1px solid #ADFF2F;
             }
         /* Hover list */
     /* List */
@@ -409,6 +416,24 @@
         .down-bar-icon i {
             margin-left: .6rem;
         }
+
+        /* Hover col sx */
+            .down-bar-txt h3:hover {
+                color: white;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+
+            .down-bar-icon .heart:hover {
+                color: #ADFF2F;
+                cursor: pointer;
+            }
+
+            .down-bar-icon .folder:hover {
+                color: white;
+                cursor: pointer;
+            }
+        /* Hover col sx */
     /* Col sx */
 
     /* Col center */
@@ -433,7 +458,11 @@
         .col-dx-row:first-child {
             margin-bottom: .8rem;
         }
-
+            /* Hover col sx */
+                .play:hover {
+                    font-size: 1.7em;
+                }
+            /* Hover col sx */
         /* Silider */
             .slide-container {
                 width: 100%;
