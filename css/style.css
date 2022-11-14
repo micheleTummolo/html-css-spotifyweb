@@ -383,19 +383,17 @@
     height: 60px;
     width: 100vw;
     background-color: #282828;
-   
+    padding: 0 .4rem;
 }
 
 .down-bar-row {
     width: 100%;
-    margin: 0 .4rem;
 }
 
     /* Col sx */
         .down-bar-col-sx {
             max-width: 167px;
             min-width: 112px;
-            margin-right: 1rem;
         }
 
         .down-bar-txt {
@@ -407,10 +405,6 @@
             max-width: 40px;
             min-width: 24px;
             display: block;
-        }
-
-        .down-bar-icon {
-            margin-left: .5rem;
         }
 
         .down-bar-icon i {
@@ -521,7 +515,6 @@
     .down-bar-col-dx {
         max-width: 147px;
         min-width: 77px;
-        margin-left: 1rem;
     }
 
     .down-bar-col-dx i{

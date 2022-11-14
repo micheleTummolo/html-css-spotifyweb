@@ -15,8 +15,8 @@
         width: calc(100vw - 160px);
     }
 
-    .down-bar-row {
-        margin: 0 1rem;
+    .down-bar {
+        padding: 0 1rem;
     }
 }
 
