@@ -342,13 +342,13 @@
         .content-col-list li {
             margin: .2rem .5rem;
             cursor: pointer;
-            border: 1px solid transparent;
+            border: 2px solid transparent;
         }
         
         /* Hover list */
             .content-col-list li:hover {
                color: white;
-               border-bottom: 1px solid #ADFF2F;
+               border-bottom: 2px solid #ADFF2F;
             }
         /* Hover list */
     /* List */
