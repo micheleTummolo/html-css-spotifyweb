@@ -39,7 +39,7 @@
         }
 
         .cl-grey {
-            color: #CDCDCD;
+            color: #56595F;
         }
 
         .cl-green {
@@ -220,6 +220,13 @@
         .border-green {
             border-left: 2px solid #ADFF2F;
         }
+
+            /* Hover menù */
+                .side-bar-full-row h3:hover {
+                    color: white;
+                    cursor: pointer;
+                }
+            /* Hover menù */
         /* Topbar section */
     
         /* Central section */
@@ -243,6 +250,20 @@
             font-size: .7rem;
             line-height: 2.5;
         }
+
+            /* Hover playlist */
+                .playlist:hover .button-playlist{
+                    background-color: white;
+                } 
+
+                .playlist:hover h3{
+                    color: white;
+                }
+                
+                .col-list li:hover {
+                    color: white;
+                }
+            /* Hover playlist */
         /* Central section */
 
         /* Downbar section */
