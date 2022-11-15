@@ -529,6 +529,10 @@
                 opacity: 0;
             }
 
+            .slider::-moz-range-progress {
+                background: #ADFF2F;
+            }
+
             .slider:hover::-moz-range-thumb {
                 opacity: 1;
             }
