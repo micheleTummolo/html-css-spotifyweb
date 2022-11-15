@@ -5,6 +5,34 @@
     font-family: 'Signika', sans-serif;
 }
 
+/* Scrollbar */
+    ::-webkit-scrollbar {
+        width: 5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: transparent; 
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #303030e8; 
+        border-radius: 2rem;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
+
+    /* Firefox */
+        .scroller {
+            width: 5px;
+            overflow-y: scroll;
+            scrollbar-color: #303030e8 transparent;
+            scrollbar-width: thin;
+        }      
+    /* Firefox */
+/* Scrollbar */
+
 /* Service classes */
 
     /* Flex */
