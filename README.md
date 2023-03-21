@@ -1,3 +1,5 @@
 # html-css-spotifyweb
-![Spotify_mobile](https://user-images.githubusercontent.com/109558656/226491281-d24d97c0-8b3c-4757-bae1-af19d23ab815.png)
-![Spotify_desktop](https://user-images.githubusercontent.com/109558656/226491285-720711bf-a74a-4e8e-bf05-70e660675990.png)
+
+![Spotify_desktop](https://user-images.githubusercontent.com/109558656/226491368-059a3dc0-5ea0-40a5-9228-3d99bb0a453d.png)
+
+![Spotify_mobile](https://user-images.githubusercontent.com/109558656/226491380-15294852-74c8-4bfd-ac1f-e3a9a1512aaa.png)
